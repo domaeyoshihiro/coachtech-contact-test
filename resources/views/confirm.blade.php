@@ -97,12 +97,17 @@
   margin-bottom: 30px;
 }
 .confirm__table {
+  width: 60%;
   margin: 0 auto;
 }
 .confirm__th {
+  width: 20%;
   text-align: left;
   padding-right: 100px;
   padding-bottom: 50px;
+}
+.confirm__td {
+  width: 40%;
 }
 .add__btn {
   display: block;
