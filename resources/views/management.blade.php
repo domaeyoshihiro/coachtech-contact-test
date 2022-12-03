@@ -41,8 +41,8 @@
       </form>
     </div>
     <div class="pagenate__flex">
-      {{ $contacts->total() }}件中
-      {{ $contacts->firstItem() }}-{{ $contacts->lastItem() }} 件
+      全{{ $contacts->total() }}件中
+      {{ $contacts->firstItem() }}~{{ $contacts->lastItem() }}件
       {{$contacts->appends(request()->query())->links('vendor.pagination.custom')}}
     </div>
     <table class="management__table">
